@@ -1,0 +1,23 @@
+{
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "node",
+  "workspaceFolder": "/home/node/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "ecmel.vscode-html-css",
+        "rodrigovallades.es7-react-js-snippets",
+        "formulahendry.auto-complete-tag",
+        "shardulm94.trailing-spaces",
+        "mosapride.zenkaku",
+        "oderwat.indent-rainbow"
+      ],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      }
+    }
+  }
+}
